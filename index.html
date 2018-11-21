@@ -109,7 +109,7 @@
 
         .second-body-content{
             display: flex;
-            background-color:#eeeeee;
+            background-color:#f5f7f9;
             margin-bottom: 20px;
         }
 
@@ -171,6 +171,35 @@
             text-align: center;
             line-height: 20px;
         }
+
+        @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+                body{
+                    padding:0px;
+                    margin:0px;
+                }
+
+                .header{
+                    width:100%;
+                    /* margin: auto;
+                    text-align: center; */
+                }
+
+                #container{
+                    width:100%;
+                    /* margin:auto; */
+                    padding-top: 20px;
+                }
+
+                .second-body-content{
+                display: block;
+                }
+
+                .banner-img{
+                    width: 100%;
+                }
+        }
+}
     </style>
 </head>
 <body>
