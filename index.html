@@ -7,84 +7,81 @@
     <title>Valvo</title>
 
     <style>
-        body{
-            margin:0px;
-            padding:0px;
+        body {
+            margin: 0px;
+            padding: 0px;
             text-align: center;
-        }
+            }
 
-        img{
+        img {
             max-width: 100%;
             max-height: 100%;
-        }
+            }
 
-        h1,h2,h3,h4,h5,h6,p{
-            color:#414146;;
-        }
+        h1,h2,h3,h4,h5,h6,p {
+            color: #414146;;
+            }
 
-        #container{
-            width:40%;
-            margin:auto;
+        #container {
+            width: 40%;
+            margin: auto;
             padding-top: 20px;
-        }
+            }   
 
-        .header{
-            width:457px;
+        .header {
+            width: 457px;
             margin: auto;
             text-align: center;
+            }
 
-        }
-
-        .header p{
+        .header p {
             font-size: 11.5px;
-            font-family:Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             color: #adadad;
-        }
+            }
 
-        .header a{
-            color: #adadad;
-            
-        }
+        .header a {
+            color: #adadad;   
+            }
 
         .company-logo{
            margin: 25px 0px;
-        }
+            }
 
-        .header h4{
+        .header h4 {
             text-transform: uppercase;
             font-family: Arial, Helvetica, sans-serif;
             letter-spacing: 3px;
             font-weight: 500;
             margin-bottom: 40px;
-        }
+            }
         
-        .first-body-title h4{
+        .first-body-title h4 {
             margin: 30px 0px;
             letter-spacing: 2.5px;
             font-weight: 300;
             font-size: 23px;
             font-family: Arial, Helvetica, sans-serif;
-        }
+            }
 
-        .first-body-content p{
+        .first-body-content p { 
             font-family: Helvetica;
             font-size: 16px;
             font-weight: 200;
             letter-spacing: 1px;
             line-height:25px;
             padding: 10px 0px;
-        }
+            }
 
-        .first-body-content h3{
+        .first-body-content h3 {
             letter-spacing: 1.5px;
             font-family: helvetica;
             font-size: 16px;
             line-height: 25px;
             font-weight: 600;
+            }
 
-        }
-
-        ul{
+        ul {
             list-style: none;
             width: 50%;
             height: auto;
@@ -93,27 +90,25 @@
             padding: 20px 10px ;
             border: 1px solid #414146;
             text-align: center;
-        }
+           }
 
-        .first-body-link li a{
+        .first-body-link li a {
             text-decoration: none;
             text-transform: uppercase;
-            color: #414146;
+            color: #414146;   
+           }
 
-           
-        }
-
-        .first-body-link{
+        .first-body-link {
             margin: 40px 0px 60px 0px;
-        }
+          }
 
-        .second-body-content{
+        .second-body-content {
             display: flex;
             background-color:#f5f7f9;
             margin-bottom: 20px;
-        }
+         }
 
-        .right-second-body-content h2, .left-second-body-content h2{
+        .right-second-body-content h2, .left-second-body-content h2 {
             font-size: 17px;
             line-height: 20px; 
             letter-spacing: 1px;
@@ -121,7 +116,7 @@
             padding: 25px 0px;
         }
 
-        .right-second-body-content ul, .left-second-body-content ul{
+        .right-second-body-content ul, .left-second-body-content ul {
            border-style: none;
            width: 100%;
            font-family: helvetica;
@@ -129,27 +124,35 @@
         
         }
 
-        .right-second-body-content li, .left-second-body-content li{
+        .right-second-body-content li, .left-second-body-content li {
            padding-top: 10px;
         }
 
-        .social{
+        .accessory{
+            height: 150px;
+            padding: 5px;
+        }
+
+        .social {
             display: inline-block;
         }
         
-        .social ul{
+        .social ul {
             width: 100%;
             border-style: none;
         }
-        .social ul li{
+
+        .social ul li {
             float:left;
             padding: 30px;
         }
-        footer{
+
+        footer {
             margin:10px 0px;
             padding: 10px 0px;
         }
-        footer p{
+
+        footer p {
             padding-top: 15px;
             font-size: 12px;
             color: #414146;
@@ -163,7 +166,7 @@
             border-bottom: 1px solid #414146 ;
         }
 
-        .footer-message{
+        .footer-message {
             font-size: 12px;
             font-weight: 600;
             color:black;
@@ -174,26 +177,32 @@
 
         @media only screen and (max-width: 768px) {
         /* For mobile phones: */
-                body{
+                body {
                     padding:0px;
                     margin:0px;
                 }
 
-                .header{
+                .header {
                     width:100%;
+                    margin: auto;
+                    text-align: center;
                 }
 
-                #container{
+                #container {
                     width:100%;
-                    padding-top: 20px;
+                    overflow: hidden;
                 }
 
-                .second-body-content{
-                display: block;
+                .second-body-content {
+                    display: block;
                 }
 
-                .banner-img{
+                .banner-img {
                     width: 100%;
+                }
+
+                .accessory{
+                     height: auto;
                 }
         }
 }
@@ -207,7 +216,7 @@
             <p>With 20% Savings, now is the prefect time to buy your Volvo's prefect Accessory pack.</p>
             <p>Having trouble seeing this email? <a href="#">View it in your browser.</a></p>
 
-            <img src="valvo.png" class="company-logo" alt="">
+            <img src="http://niraan.com/valvo.png" class="company-logo" alt="">
 
             <h4>accessory to adventure</h4>
         </div>
@@ -217,7 +226,7 @@
         <div class="body">
                 <!--body banner image-->
                 <section>
-                    <img src="banner.png" class="banner-img" alt="">
+                <img src="http://niraan.com/banner.png" class="banner-img" alt="">
                 </section>
 
                 
@@ -249,8 +258,9 @@
                     </section><!--Second Section Starts here-->
                         <div class="second-body-content">
                             <div class="left-second-body-content">
-                                <img src="winter.png" class="left-second-body-img" alt="">
+                                <img src="http://niraan.com/winter.png" class="left-second-body-img" alt="">
                                 <h2>Winter Accessory Pack</h2>
+                                    <div class="accessory">
                                         <ul>
                                             <li>Mud Flaps</li>
                                             <li>Winter essentials</li>
@@ -258,20 +268,28 @@
                                             <li>Passanger Compartment mat</li>
                                             <li>Snow socks</li>
                                         </ul>
-                                <h2>Offer Price: £320</h2>
+                                    </div>
+                                        
+                                    <div class="price-tag">
+                                        <h2>Offer Price: £320</h2>                                    
+                                    </div>
                             </div>
 
                             <div class="right-second-body-content">
-                                    <img src="cycling.png" class="right-second-body-img" alt="">
+                                    <img src="http://niraan.com/cycling.png" class="right-second-body-img" alt="">
                                     <h2>Tawbar cycling Accessory Pack</h2>
-                                        <ul>
-                                            <li>Detachable towbar</li>
-                                            <li>Towbar bikr rack(2x bicycles)</li>
-                                            <li>Dirt bumper cover</li>
-                                            <li>Compartment mat</li>
-                                            <li></li>
-                                        </ul>
-                                    <h2>Offer Price: £1,088</h2>
+                                        <div class="accessory">
+                                            <ul>
+                                                <li>Detachable towbar</li>
+                                                <li>Towbar bikr rack(2x bicycles)</li>
+                                                <li>Dirt bumper cover</li>
+                                                <li>Compartment mat</li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="price-tag">
+                                            <h2>Offer Price: £1,088</h2>                                    
+                                        </div>
                              </div>
                         </div>
                     </section><!--Second Section Ends here--> 
@@ -280,10 +298,22 @@
         <div class="social">
             <section>
                 <ul>
-                    <li><a href="#"><img src="facebook.png" alt=""></a></li>
-                    <li><a href="#"><img src="twitter.png" alt=""></a></li>
-                    <li><a href="#"><img src="instagram.png" alt=""></a></li>
-                    <li><a href="#"><img src="youtube.png" alt=""></a></li>
+                    <li>
+                        <a href="#"><img src="http://niraan.com/facebook.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="http://niraan.com/twitter.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="http://niraan.com/instagram.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="http://niraan.com/youtube.png" alt="">
+                        </a>
+                    </li>
                 </ul>
             </section>
         </div>
